@@ -31,7 +31,7 @@ As subclasses herdam de `Servico` e sobrescrevem (`override`) o método `Calcula
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Linguagem:** C# (.NET)
+* **Linguagem:** C# (.NET 8.0)
 * **Paradigma:** Programação Orientada por Objetos (POO)
 * **Controle de Versão:** Git & GitHub
 
@@ -39,32 +39,26 @@ As subclasses herdam de `Servico` e sobrescrevem (`override`) o método `Calcula
 
 ## 👥 Equipe e Divisão de Responsabilidades
 
-| Integrante | Responsabilidade Principal |
+| Responsável | Cards |
 | :--- | :--- |
-| **Caique de Lima e Silva Gonçalves** | Modelagem e implementação das classes `Cliente` e `Computador`. |
-| **Jean Lucas Pereira de Assis** | Estruturação das entidades `Tecnico` e `OrdemDeServico` (lógica de agregação). |
-| **Kayky Miranda Gusmao Guimarães** | Implementação da classe abstrata `Servico` e da classe derivada `Formatacao`. |
-| **Marco Antonio Alves Moreira** | Criação das classes derivadas `Limpeza` e `ReparoHardware` (regras de polimorfismo). |
-| **Rafael Lucas Mota Oliveira** | Configuração do repositório GitHub, documentação (`README.md`) e revisão de encapsulamento. |
+| **Rafael Lucas Mota Oliveira** | #1 Setup, #2 Serviço, #3 Serviços de bancada, #4 Ordem de serviço e #5 Integração e menu. |
+| **Jean Lucas Pereira de Assis** | #6 Cliente e computador e #7 Slides, parte 1. |
+| **Kayky Miranda Gusmao Guimarães** | #8 Técnico e formatação e #9 Slides, parte 2. |
 
 ---
 
 ## 🔧 Como Executar o Projeto
 
-*(Nota: O projeto encontra-se atualmente na fase de **Modelagem do Sistema**. As instruções abaixo serão ativadas na etapa de codificação).*
+Instale o SDK do .NET 8.0 e execute:
 
-1. Clone este repositório em sua máquina local:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd NOME-DO-REPOSITORIO
-   ```
-3. Compile e execute a aplicação via terminal do .NET:
-   ```bash
-   dotnet run
-   ```
+```bash
+git clone https://github.com/Rafaellcs/POO_assitencia_tecnica.git
+cd POO_assitencia_tecnica
+dotnet build
+dotnet run
+```
+
+A versão inicial imprime o nome do sistema no console.
 
 ---
 *Pontifícia Universidade Católica de Minas Gerais (PUC Minas) — 2026*
